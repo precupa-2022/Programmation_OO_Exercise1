@@ -16,5 +16,5 @@ class StringFoo:
         print(message.upper())
 
 s = StringFoo()
-s.set_string("avion")
+s.set_string(s.message)
 s.print_string(s.message)
